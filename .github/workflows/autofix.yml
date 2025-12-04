@@ -8,6 +8,9 @@ on:
 permissions:
   contents: read
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 jobs:
   code:
     runs-on: ubuntu-latest

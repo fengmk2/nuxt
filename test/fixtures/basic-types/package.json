@@ -11,9 +11,10 @@
   "devDependencies": {
     "ofetch": "latest",
     "unplugin-vue-router": "latest",
-    "vitest": "latest",
+    "vitest": "catalog:",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
