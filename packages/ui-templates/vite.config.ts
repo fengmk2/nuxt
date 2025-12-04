@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url'
 import { resolve } from 'node:path'
 import { readdirSync } from 'node:fs'
 
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 import UnoCSS from 'unocss/vite'
 
 import { DevRenderingPlugin } from './lib/dev'

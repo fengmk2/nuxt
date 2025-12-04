@@ -66,13 +66,14 @@
     "unctx": "2.4.1",
     "unimport": "5.5.0",
     "untyped": "2.0.0",
-    "vite": "7.2.4",
+    "vite": "catalog:",
     "vue": "3.5.25",
     "vue-bundle-renderer": "2.2.0",
     "vue-loader": "17.4.2",
     "vue-router": "4.6.3",
     "webpack": "5.103.0",
-    "webpack-dev-middleware": "7.4.5"
+    "webpack-dev-middleware": "7.4.5",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "dependencies": {
     "@vue/shared": "^3.5.25",

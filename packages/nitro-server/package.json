@@ -56,7 +56,8 @@
     "@nuxt/schema": "workspace:*",
     "nuxt": "workspace:*",
     "unbuild": "3.6.1",
-    "vitest": "4.0.15"
+    "vitest": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"

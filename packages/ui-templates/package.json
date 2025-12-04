@@ -11,7 +11,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite",
+    "dev": "vite dev",
     "optimize-assets": "npx svgo public/assets/**/*.svg",
     "postinstall": "pnpm build",
     "prerender": "pnpm build && jiti ./lib/prerender"
@@ -31,6 +31,7 @@
     "tinyexec": "1.0.2",
     "tinyglobby": "0.2.15",
     "unocss": "66.5.9",
-    "vite": "7.2.4"
+    "vite": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

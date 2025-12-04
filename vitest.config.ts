@@ -1,6 +1,6 @@
 import { resolve } from 'pathe'
 import { defineVitestProject } from '@nuxt/test-utils/config'
-import { configDefaults, coverageConfigDefaults, defaultExclude, defineConfig } from 'vitest/config'
+import { configDefaults, coverageConfigDefaults, defaultExclude, defineConfig } from '@voidzero-dev/vite-plus'
 import { isCI, isWindows } from 'std-env'
 import { getV8Flags } from '@codspeed/core'
 import codspeedPlugin from '@codspeed/vitest-plugin'

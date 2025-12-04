@@ -21,6 +21,9 @@ on:
 permissions:
   contents: read
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 jobs:
   lint-monorepo:
     runs-on: ubuntu-latest
