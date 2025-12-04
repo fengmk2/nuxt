@@ -98,7 +98,9 @@
     "@types/semver": "7.7.1",
     "@typescript-eslint/parser": "8.48.0",
     "@unhead/vue": "2.0.19",
+    "@vitejs/devtools": "0.0.0-alpha.19",
     "@vitest/coverage-v8": "4.0.15",
+    "@voidzero-dev/vite-plus": "catalog:",
     "@vue/test-utils": "2.4.6",
     "acorn": "8.15.0",
     "autoprefixer": "10.4.22",
@@ -148,8 +150,7 @@
     "vitest-environment-nuxt": "1.0.1",
     "vue": "3.5.25",
     "vue-tsc": "3.1.5",
-    "webpack": "5.103.0",
-    "@voidzero-dev/vite-plus": "catalog:"
+    "webpack": "5.103.0"
   },
   "packageManager": "pnpm@10.23.0",
   "version": ""
